@@ -1,0 +1,5 @@
+https://github.com/jakblak/ng4_CRUD
+
+https://github.com/sikandar114/angular2_crud_array
+
+http://www.mediafire.com/file/vg2m1a4i53r8z1d/Part+6+-AddUpdateDelete.zip
