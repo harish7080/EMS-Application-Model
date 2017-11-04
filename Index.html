@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html ng-app="SampleApplication">
+<head>
+    <tit.le></tit.le>
+	<meta charset="utf-8" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-controller="SampleController">
+
+    <p>Server Data</p>
+    <div ng-repeat="obj in serverData">
+       <input type="checkbox" name="{{obj.name}}" ng-checked="selection.indexOf(obj.id)>-1" ng-click="toggleSelection(obj.id)" />
+        {{obj.name}}
+    </div>
+    <br/>
+    <p>Hr Details Data</p>
+    {{hrDetails.HrEntityMappingDetails | json}}
+    <br/>
+    <p>Selection Data</p>
+    {{selection | json}}
+
+
+
+</body>
+</html>
